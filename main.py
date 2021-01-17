@@ -31,6 +31,6 @@ async def create_item(Size:int,
     return {"Hotel_Class":int(result)}
 
 if __name__ == '__main__':
-    #app.run(threaded=True)
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=5000, debug=True)
+    app.run(threaded=True)
+    #import uvicorn
+    #uvicorn.run(app, host="0.0.0.0", port=5000, debug=True)
